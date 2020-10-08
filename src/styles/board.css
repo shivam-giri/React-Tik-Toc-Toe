@@ -1,0 +1,39 @@
+.board-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .board {
+    width: 250px;
+  }
+  
+  .board-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .board-heading {
+    color: rgb(131, 153, 9);
+    list-style-type: none;
+    font: 718 24px / 1.618 sans-serif;
+   
+  }
+  
+  .board-history {
+    margin-left: 60px;
+    font-size: 20px;
+    font-style: italic
+  }
+  
+  .board-history-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .board-footer {
+    width: 100%;
+  }
+  .board-link{
+    font-size: bold;
+    color: brown;
+  }
